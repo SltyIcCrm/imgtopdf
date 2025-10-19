@@ -43,7 +43,9 @@ def images_to_pdf(image_paths, output_pdf):
 
 # Example usage
 if __name__ == "__main__":
-    folder_path = r"C:\Users\Jericho\Pictures\Screenshots\convert"
+    folder_path = r"C:\Users\SltyIcCrm\FolderToConvert"
+            #change name based on user folder names
+
     extensions = ["*.jpg", "*.jpeg", "*.png", "*.bmp", "*.tiff"]
 
     image_paths = []
@@ -53,5 +55,7 @@ if __name__ == "__main__":
     if not image_paths:
         print("No images found in the folder.")
     else:
-        output = r"C:/Users/Jericho/Pictures/Screenshots/my_images.pdf"
+        output = r"C:/Users/SltyIcmCrm/FolderToAddPDF/my_images.pdf"
+        #change name based on user folder names
         images_to_pdf(image_paths, output)
+
